@@ -1,3 +1,13 @@
+###### Initialisation d'une cellule de jeu ######
+
+class Cell
+	attr_accessor :value
+	def initialize(value = "")
+		@value = value
+	end
+end
+
+
 ###### Initialisation et création d'une board de jeu ######
 module TicTacToe
 	class Board
@@ -30,11 +40,11 @@ module TicTacToe
 		false
 end
 
-#### Methode pour charger une grille par défaut constituée de _
+#### Methode pour charger une grille par défaut constituée de ◙
 
     def formatted_grid
       grid.each do |row|
-        puts row.map { |cell| cell.value.empty? ? "_" : cell.value }.join(" ")
+        puts row.map { |cell| cell.value.empty? ? "◙" : cell.value }.join(" ")
       end
     end
 

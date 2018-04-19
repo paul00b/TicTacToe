@@ -1,6 +1,7 @@
 root = File.expand_path("./", File.dirname(__FILE__))
 require "#{root}/lib/tic_tac_toe.rb"
 puts "C'est parti pour un super TIC TAC TOE"
+puts " "
 puts "Entrez le nom du joueur 1"
 j1 = gets.chomp
 puts "Entrez le nom du joueur 2"

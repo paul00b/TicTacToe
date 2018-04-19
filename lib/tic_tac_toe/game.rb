@@ -1,12 +1,13 @@
 require_relative "./board.rb"
 module TicTacToe
   class Game
-    ### Par défaut on aura une planche, un joueur par défaut et l'autre joueur
+### Par défaut on aura une planche, un joueur par défaut et l'autre joueur
    	 attr_reader :players, :board, :current_player, :other_player
     	def initialize(players, board = Board.new)
       		@players = players
      		 @board = board
-         ### On choisi aléatoirement le premier joueur
+
+### On choisi aléatoirement le premier joueur
      		 @current_player, @other_player = players.shuffle
     	end
 
@@ -16,7 +17,8 @@ module TicTacToe
 
 #### On appelle le joueur à jouer
 	def solicit_move
-		"#{current_player.name}: Balance ton numéro entre 1 et 9"
+		puts "#{current_player.name}: Balance ton numéro entre 1 et 9"
+    puts "----------------------------------------------"
 	end
 
 
@@ -26,7 +28,7 @@ module TicTacToe
 
 private
 
- #### Défini les mouvements
+#### Défini les mouvements en assignant des coordonnées 
 	def human_move_to_coordinate(human_move)
 	  mapping = {
 	    "1" => [0, 0],
@@ -45,14 +47,15 @@ private
 public
 ##### Message de game over
 	def game_over_message
-		  return "#{current_player.name} gagne! GG frère" if board.game_over == :winner
+		  return "#{current_player.name} gagne! GG well played" if board.game_over == :winner
 		  return "égalité :D" if board.game_over == :draw
 	end
 
 
-  ##### Lancement d'une partie
+##### Lancement d'une partie
 	def play
  		 puts "#{current_player.name} est le premier joueur !"
+     puts "----------------------------------------------"
 		  while true
 		    board.formatted_grid
 		    puts ""
