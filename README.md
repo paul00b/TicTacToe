@@ -11,8 +11,8 @@ Project TicTacToe with THP by Paul Broussolle
 
 ## Why a GEM ?
 So that's easier to install, and that's funnier to try :D
-To install a GEM, type ``bundle gem Name_of_gem``. It will create folders like this :
-* Name of the program
+To install a GEM, type ``bundle gem Name_of_the_gem``. It will create folders like this :
+* Name_of_the_gem
   * bin
   * lib
     * tic_tac_toe (wich is where you have to put all the files)
@@ -38,7 +38,12 @@ Or install it yourself as:
 
     $ gem install tic_tac_toe
 
-
+## Others
+I found the following function to require all the files :
+``
+root = File.expand_path("./", File.dirname(__FILE__))
+require "#{root}/lib/tic_tac_toe.rb"
+``
 
 
 ## Contributing
