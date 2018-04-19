@@ -12,7 +12,7 @@ Project TicTacToe with THP by Paul Broussolle
 ## Why a GEM ?
 So that's easier to install, and that's funnier to try :D
 To install a GEM, type ``bundle gem Name_of_the_gem``. It will create folders like this :
-* Name_of_the_gem
+* ``Name_of_the_gem``
   * bin
   * lib
     * tic_tac_toe (wich is where you have to put all the files)
@@ -20,7 +20,7 @@ To install a GEM, type ``bundle gem Name_of_the_gem``. It will create folders li
   * Gemfile
   * Rakefile
   * Readme.md
-  * TTT gemspec
+  * ```Name_of_gem```.gemspec
 
 ## Installation
 
@@ -37,6 +37,20 @@ And then execute:
 Or install it yourself as:
 
     $ gem install tic_tac_toe
+
+## How does it work ?
+* The ```board.rb``` file :
+  * Initialize and create a board.
+  * Uses the class cell to build a 3*3 Array
+  * Check if a case is empty or isn'
+  * Create diagonals to use them to check if it's win or not
+
+* The ```core_extensions.rb``` file :
+  * Initialize and create a board.
+  * Uses the class cell to build a 3*3 Array
+  * Check if a case is empty or isn'
+  * Create diagonals to use them to check if it's win or not
+
 
 ## Others
 I found the following function to require all the files :
