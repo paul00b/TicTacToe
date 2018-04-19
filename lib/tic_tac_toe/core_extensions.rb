@@ -1,3 +1,6 @@
+##### On ajoute à la classe array des méthodes afin de savoir si nos cellules sont vides, pour éviter de remplacer les objets.
+#####Pas besoin d'initialiser notre classe ici parce qu'Array existe déjà.
+
 class Array
 ##Cette méthode retourne vraie si les elements de l'array sont vide, false si ils sont pleins
 	def all_empty?

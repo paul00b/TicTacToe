@@ -7,4 +7,4 @@ module TicTacToe #Création d'un module pour éviter les classes collisions
      end
 end
 
-# La classe Cell va permettre de connaitre la valeur d'une cellule, en la mettant par défaut à ""
+# La classe Cell va permettre de connaitre la valeur d'une cellule, en la mettant par défaut à "".
