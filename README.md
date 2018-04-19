@@ -4,6 +4,8 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 TODO: Delete this and the text above, and describe your gem
 
+## Why a gemfile ?
+So that's easier to install ;)
 ## Installation
 
 Add this line to your application's Gemfile:
