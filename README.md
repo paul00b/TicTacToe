@@ -1,10 +1,10 @@
 # TicTacToe
 
-Project TicTacToe with THP.
+Project TicTacToe with THP by Paul Broussolle
 
 
 ## Why a gemfile ?
-So that's easier to install ;)
+So that's easier to install, and that's funnier to try :D
 
 ## Installation
 
@@ -22,13 +22,13 @@ Or install it yourself as:
 
     $ gem install tic_tac_toe
 
-## Usage
+## How to use ?
 
-Run the ``First_game.rb`` file to play :)
+1. Run the ``First_game.rb`` file to play. Then add the first player, followed but the player 2.
+2. Move through the cases by typing the number of the case (from 1 to 9)
+4. BEAT HIM
+5. <3
 
-## Development
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 

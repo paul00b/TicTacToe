@@ -1,4 +1,4 @@
-root = File.expand_path("../", File.dirname(__FILE__))
+root = File.expand_path("./", File.dirname(__FILE__))
 require "#{root}/lib/tic_tac_toe.rb"
 puts "Welcome to tic tac toe"
 puts "Entrez le nom du joueur 1"
