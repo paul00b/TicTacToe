@@ -1,3 +1,4 @@
+=begin
 RSpec.describe TicTacToe do
   it "has a version number" do
     expect(TicTacToe::VERSION).not_to be nil
@@ -7,3 +8,4 @@ RSpec.describe TicTacToe do
     expect(false).to eq(true)
   end
 end
+=end

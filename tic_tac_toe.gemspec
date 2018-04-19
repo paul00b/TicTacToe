@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["broussolle.paul@gmail.com"]
 
   spec.summary       = "TicTacToe wth THP"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "http://github.com/paul00b"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
